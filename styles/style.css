@@ -5,3 +5,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+    --indigo-dye: #08415cff;
+    --persian-red: #cc2936ff;
+    --ultra-pink: #f26df9ff;
+    --silver: #a9aca9ff;
+    --dark-purple: #260c1aff; 
+}
