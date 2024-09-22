@@ -7,9 +7,14 @@
 }
 
 :root {
+    /* Colors */
     --indigo-dye: #08415cff;
     --persian-red: #cc2936ff;
     --ultra-pink: #f26df9ff;
     --silver: #a9aca9ff;
-    --dark-purple: #260c1aff; 
+    --dark-purple: #260c1aff;
+
+    /* Type */
+    --calcDisplay: 4rem;
+    --calcButton: 1.5rem
 }
