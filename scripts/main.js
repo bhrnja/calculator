@@ -5,15 +5,18 @@ function displayInput(input) {
     calcDisplay.value += input;
 }
 
+// Clears display input.
 function clearAll() {
     calcDisplay.value = "";
 }
 
-// This almost works, but it deletes all and changes the input to 1.
+// Deletes the previous value entry by removing it from the string.
 function deleteFrom() {
     calcDisplay.value = calcDisplay.value.slice(0,-1);
 }
 
+
+// Evaluates string, added a try catch to prevent errors and reduce breakage.
 function evalWith () {
     try {
         calcDisplay.value = eval(calcDisplay.value);
