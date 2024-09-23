@@ -9,7 +9,7 @@ The goal with this simple calculator is to learn how to manipulate the DOM with 
 ### Functions to be added:
 
 - Digits 0-9
-- +, -, \*, and / operators
-- ., =, (), and % operators
-- A display that shows input and evaluation
-- A delete and clear all button.
+- ~+, -, \*, and / operators~
+- ~., =, (), and % operators~
+- ~A display that shows input and evaluation~
+- ~A delete and clear all button.~
