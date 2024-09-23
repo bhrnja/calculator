@@ -1,4 +1,4 @@
-# calculator
+# Calculator App
 
 A simple calculator web app made to learn Javascript interaction with the DOM.
 
