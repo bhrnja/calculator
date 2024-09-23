@@ -9,8 +9,34 @@
 </head>
 <body>
     
-    <div class="container">
-        
+    <div class="calculator">
+        <div class="display">
+            <input id="calcDisplay" class="calcDisplay" readonly>
+        </div>
+        <div class="operators">
+            <button class="inputButton delBtn" onclick="deleteFrom()">DEL</button>
+            <button class="inputButton orgBtn" onclick="clearAll()">CE</button>
+            <button class="inputButton" onclick="displayInput('(')">(</button>
+            <button class="inputButton" onclick="displayInput(')')">)</button>
+        </div>
+        <div class="calcButtons">
+            <button class="inputButton" onclick="displayInput(1)">1</button>
+            <button class="inputButton" onclick="displayInput(2)">2</button>
+            <button class="inputButton" onclick="displayInput(3)">3</button>
+            <button class="inputButton orgBtn" onclick="displayInput('+')">+</button>
+            <button class="inputButton" onclick="displayInput(4)">4</button>
+            <button class="inputButton" onclick="displayInput(5)">5</button>
+            <button class="inputButton" onclick="displayInput(6)">6</button>
+            <button class="inputButton orgBtn" onclick="displayInput('-')">-</button>
+            <button class="inputButton" onclick="displayInput(7)">7</button>
+            <button class="inputButton" onclick="displayInput(8)">8</button>
+            <button class="inputButton" onclick="displayInput(9)">9</button>
+            <button class="inputButton orgBtn" onclick="displayInput('*')">*</button>
+            <button class="inputButton" onclick="displayInput(0)">0</button>
+
+            <button class="inputButton" onclick="displayInput('.')">.</button>
+            <button class="inputButton" onclick="evalWith()">=</button>
+        </div>
     </div>
 
     <script src="./scripts/main.js"></script>
