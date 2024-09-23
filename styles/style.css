@@ -21,6 +21,12 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(154, 138, 152);
+    font-family: 'Inter', sans-serif;
+}
+
+*:focus {
+    outline: none;
 }
 
 .calculator {
@@ -31,16 +37,19 @@ html {
     gap: .625rem;
     background-color: var(--dark-purple);
     border-radius: 1rem;
+    box-shadow: 0 0 10rem .5rem #00000050;
 }
 
 .calcDisplay {
     width: 100%;
-    font-family: 'Inter', sans-serif;
     font-size: 6rem;
+    text-align: right;
+    overflow: scroll;
     color: #ffffff;
     background-color: var(--indigo-dye);
     border: none;
     border-radius: .5rem;
+    padding: 1rem;
 }
 
 .operators {
@@ -57,19 +66,44 @@ html {
 }
 
 .inputButton {
-    font-family: 'Inter', sans-serif;
     font-size: 2rem;
     padding: 10px;
     border: none;
     border-radius: .5rem;
     color: #ffffff;
     background-color: var(--silver);
+    cursor: pointer;
 }
+
+.inputButton:hover {
+    background-color: #a9aca980;
+}
+
+.inputButton:active {
+    background-color: #a9aca995;
+}
+
 
 .delBtn {
     background-color: var(--persian-red);
 }
 
+.delBtn:hover {
+    background-color: #cc293680;
+}
+
+.delBtn:active {
+    background-color: #cc293695;
+}
+
 .orgBtn {
     background-color: var(--ultra-pink);
+}
+
+.orgBtn:hover {
+    background-color: #f26df980;
+}
+
+.orgBtn:active {
+    background-color: #f26df995;
 }
